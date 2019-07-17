@@ -1,7 +1,5 @@
-$(document).ready(function () {
+$(document).ready(function(){
 	var magic8Ball = {};
-	magic8Ball.answer;
-	magic8Ball.question;
 	magic8Ball.listOfAnswers = ["only time will tell", "too soon to know", "maybe", "don't count on it", "doubtful", "future doesn't look good"];
 	$("#answer").hide();
 	magic8Ball.askQuestion = function () {
